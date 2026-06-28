@@ -3,7 +3,7 @@ import React from "react";
 const Card = (props) => {
   return (
     <div>
-      <div className={`${props.c_style} w-full lg:w-55 sm:w-72 h-96`}>
+      <div className={`${props.c_style} w-full lg:w-75 lg:h-145  sm:w-72 h-96`}>
         <div className="flex flex-col justify-between h-full">
           <div className="num h-8 w-8 bg-green-700 text-white rounded-full">
             <h1 className="flex justify-center text-xl">{props.c_num}</h1>

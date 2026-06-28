@@ -5,7 +5,7 @@ const LeftContent = () => {
     <div className="w-full lg:w-1/4 flex flex-col justify-between p-4">
       {/* left */}
       <div>
-        <div className="text-3xl md:text-5xl font-bold">
+        <div className="text-xl md:text-6xl font-bold">
           <h1>Choose Your Fitness Journey</h1>
         </div>
         <div className="py-7  text-lg">
@@ -15,7 +15,7 @@ const LeftContent = () => {
           </p>
         </div>
       </div>
-      <div className="text-4xl md:text-7xl text-green-600">
+      <div className="text-4xl md:text-9xl text-green-600">
         <i class="ri-arrow-right-up-line"></i>
       </div>
     </div>
