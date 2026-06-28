@@ -13,10 +13,10 @@ const Card = (props) => {
               <p>{props.c_para}</p>
             </div>
             <div className="num w-full ">
-              <div className="flex justify-between items-center bg-green-700 rounded-full w-full px-3 py-1 text-[15px] text-gray-50">
+              <div className="flex justify-between items-center bg-green-700 rounded-full w-full px-3 py-1 text-[18px] text-gray-50">
                 {props.c_btn}
 
-                <button className="bg-gray-200 rounded-full px-1 py-0   text-green-700 ">
+                <button className="bg-gray-200 rounded-full px-2 py-0   text-green-700 ">
                   <i class="ri-arrow-right-line"></i>
                 </button>
               </div>
